@@ -1,17 +1,16 @@
-// ==UserScript==
-// @name           Google Calendar Color
-// @include        http://*/*
-// ==/UserScript==
 {
     "name": "Google Calendar Color Monday",
-	"version": "1.1",
-	"default_icon" : "icon.png",
-	"background_page": "background.html",
+	"version": "1.0.3",
+	"manifest_version": 2,
+    "description": "Google Calendar の土日に色をつけます。月曜始まりに対応しています。",
+    "icons": {
+       "16": "icon_016.png",
+      "128": "icon_128.png"
+    },
 	"content_scripts":[
 	  {
 	    "matches": ["http://www.google.com/calendar/*", "https://www.google.com/calendar/*"],
-	    "css": ["content.css"],
-	    "js": ["jquery.js", "content.js"]
+	    "css": ["content.css"]
 	  }
 	],
 	"permissions": ["http://www.google.com/calendar/*", "https://www.google.com/calendar/*"]
