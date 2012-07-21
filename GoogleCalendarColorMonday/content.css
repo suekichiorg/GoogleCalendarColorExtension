@@ -1,0 +1,70 @@
+
+
+  /*** Saturday on main calendar ***/
+  .st-dtitle:nth-last-child(2),
+  .tg-weekend:nth-last-child(2),
+  #weekViewAllDayBgwk .st-bg:nth-last-child(2) {
+
+    background-color: #D8E2F2 !important;
+    color: #6A6AFF !important;
+
+  }
+  
+  .st-bg-table .st-bg:nth-last-child(2),
+  .tg-weekend:nth-last-child(2),
+  #weekViewAllDayBgwk .st-bg:nth-last-child(2) {
+    background-color: #F0F3FC !important;
+  }
+
+
+
+  /*** Sunday on main calendar ***/
+  .st-dtitle:last-child,
+  .tg-weekend:last-child,
+  #weekViewAllDayBgwk .st-bg:last-child {
+
+    background-color: #F6E4E4 !important;
+    color: #FF6A6B !important;
+
+  }
+
+  .st-bg-table .st-bg:last-child,
+  .tg-weekend:last-child,
+  #weekViewAllDayBgwk .st-bg:last-child {
+    background-color: #FFF0EE !important;
+  }
+
+
+  /*** Saturday on mini calendar ***/
+  .dp-dayh:nth-last-child(2),
+  .dp-weekend:nth-last-child(2),
+  .dp-weekend-selected:nth-last-child(2) {
+
+    color: #22F !important;    
+
+  }
+
+  .dp-weekend:nth-last-child(2).dp-offmonth,
+  .dp-weekend-selected:nth-last-child(2).dp-offmonth {
+
+    color: #88F !important;    
+
+  }
+
+
+  /*** Sunday on mini calendar ***/
+  .dp-dayh:last-child,
+  .dp-weekend:last-child,
+  .dp-weekend-selected:last-child {
+
+    color: #E22 !important;
+
+  }
+
+  .dp-weekend:last-child.dp-offmonth,
+  .dp-weekend-selected:last-child.dp-offmonth {
+
+    color: #E88 !important;
+
+  }
+
