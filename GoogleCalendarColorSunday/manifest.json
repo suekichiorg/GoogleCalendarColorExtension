@@ -1,6 +1,6 @@
 {
     "name": "Google Calendar Color Sunday",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"manifest_version": 2,
     "description": "Google Calendar の土日に色をつけます。日曜始まりに対応しています。",
     "icons": {
@@ -9,10 +9,10 @@
     },
 	"content_scripts":[
 	  {
-	    "matches": ["http://www.google.com/calendar/*", "https://www.google.com/calendar/*"],
+	    "matches": ["https://calendar.google.com/*", "https://calendar.google.com/*"],
 	    "css": ["content.css"]
 	  }
 	],
-	"permissions": ["http://www.google.com/calendar/*", "https://www.google.com/calendar/*"]
+	"permissions": ["https://calendar.google.com/*", "https://calendar.google.com/*"]
 }
 
